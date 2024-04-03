@@ -92,6 +92,7 @@
     border: 1px solid var(--color-emphasis-);
     transition: all linear 400ms;
 }
+
 .bg_get:hover {
     background-color: transparent;
     color: var(--color-emphasis-);
@@ -125,6 +126,7 @@
     border: 1px solid var(--color-emphasis-);
     transition: all linear 400ms;
 }
+
 .com_soon:hover {
     background-color: transparent;
     color: var(--color-emphasis-);
