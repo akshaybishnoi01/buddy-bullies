@@ -446,7 +446,6 @@
 
     /* Full-width containers */
 
-
     /* Make sure that all arrows are pointing leftwards */
     .container::before {
         left: 60px;
