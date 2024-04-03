@@ -48,6 +48,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 400px;
+    transform: translateY(-7%);
 }
 
 .padding-top {
@@ -479,6 +480,9 @@
     .para_6 {
         max-width: 100%;
     }
+    .bg_img {
+        transform: translateY(-8%);
+    }
 }
 
 @media (max-width:768px) {
@@ -490,6 +494,9 @@
     .road_ {
         width: 100%;
         padding: 42px 30px 20px 80px;
+    }
+    .bg_img {
+        transform: translateY(-9%);
     }
 }
 
