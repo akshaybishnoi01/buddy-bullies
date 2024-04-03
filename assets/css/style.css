@@ -392,7 +392,7 @@
     }
 
     .icon-box {
-        z-index:51;
+        z-index: 51;
         height: 30px;
         width: 40px;
         flex-direction: column;
@@ -480,6 +480,7 @@
     .para_6 {
         max-width: 100%;
     }
+
     .bg_img {
         transform: translateY(-8%);
     }
@@ -495,6 +496,7 @@
         width: 100%;
         padding: 42px 30px 20px 80px;
     }
+
     .bg_img {
         transform: translateY(-9%);
     }
