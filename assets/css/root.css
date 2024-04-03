@@ -85,7 +85,6 @@
     color: var(--color-bgtertiary-);
 }
 
-
 @media (max-width:992px) {
     :root {
         --fs-xsm-: 14px;
