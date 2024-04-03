@@ -528,4 +528,11 @@
     .right::after {
         left: -8px;
     }
+    
+    .box_1 {
+        padding: 29px 15px 60px 15px;
+    }
+    .box_2 {
+        padding: 29px 15px 60px 15px;
+    }
 }
