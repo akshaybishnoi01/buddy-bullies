@@ -17,7 +17,7 @@
 
 <body class="bg_color">
     <header class="sticky-top">
-        <nav>
+        <nav class="nav-bg">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between py-4">
                     <h2 class="mb-0 ff-Poppins fw-semibold fs-22 color_emphasis">
@@ -525,6 +525,23 @@
             x.classList.toggle("change");
         }
     </script>
+
+    <script>
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 300) {
+                    $(".nav-bg").css("background", "#081324");
+                }
+
+                else {
+                    $(".nav-bg").css("background", "transparent");
+                }
+            })
+        })
+    </script>
+
     <script>
         // Get the button
         let mybutton = document.getElementById("myBtn");
